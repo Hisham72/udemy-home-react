@@ -62,6 +62,25 @@
     word-wrap: break-word;
 }
 
+.rating{
+
+}
+.checked {
+    color: orange;
+}
+.ratingNum{
+    color: #b4690e;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    margin-right: 0.4rem;
+    font-weight: 700;
+
+}
+.studentsNum{
+    color: #6a6f73;
+    margin-left: 0.4rem;
+    font-size: 70%;
+}
+
 .current{
     font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     font-weight: 700;
