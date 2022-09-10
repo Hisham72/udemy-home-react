@@ -1,0 +1,39 @@
+.selectedCourses{
+    border: 1px solid #d1d7dc;
+    padding: 25px;
+    text-align: left;
+    width: 70%;
+    position: relative;
+    left: 13.5%;
+}
+
+.selectedCourses > h3{
+    margin-top: 1px;
+    font-size: 22px;
+}
+
+.explore{
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 15px;
+    width: 150px;
+    padding: 10px 5px 10px 5px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+    cursor: pointer;
+    color: #1c1d1f
+}
+
+.explore:hover{
+    background-color: rgb(240, 236, 229);
+}
+
+.cards{
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+}

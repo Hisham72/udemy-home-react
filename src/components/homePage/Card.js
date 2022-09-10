@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../css-modules/cardStyles.module.css'
+import styles from './cardStyles.module.css'
 
 function Card({data}) {
   console.log(data);
@@ -10,11 +10,11 @@ function Card({data}) {
         <span className={styles.author}>{data.instructor}</span>
         <section className={styles.rating}>
           <span className={styles.ratingNum}>{data.rating}</span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star-half-o"></span>
+          <span className="fa fa-star" id={styles.stars}></span>
+          <span className="fa fa-star" id={styles.stars}></span>
+          <span className="fa fa-star" id={styles.stars}></span>
+          <span className="fa fa-star" id={styles.stars}></span>
+          <span className="fa fa-star-half-o" id={styles.stars}></span>
           <span className={styles.studentsNum}>({data.students})</span>
         </section>
         <section>

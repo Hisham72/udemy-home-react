@@ -1,0 +1,97 @@
+.myNavBar{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px ;
+    flex-wrap: wrap;
+}
+#menuIcn{
+    display: none;
+}
+#udemylogo{
+    margin-left: 1%;
+}
+.search{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 0 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: fit-content;
+    width: 45vw;
+}
+
+.searchTxt {
+    border: 0;
+    margin-bottom: 5px;
+    width: 90%;
+    
+    
+}
+.searchTxt:focus{
+    outline: 0;
+}
+.searchSubmit{
+    border: 0;
+    background: 0;
+    
+}
+.searchIcn{
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.globeIcn{
+    height: 20px;
+}
+
+
+
+.myNavBar > span{
+    cursor: pointer;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+.myNavBar > span:hover{
+    color: #5624d0;
+}
+.myNavBar > button{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+    width: 5%;
+    font-family: udemy sans,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 650;
+    font-size: 13px;
+    cursor: pointer;
+    height: 5vh;
+    
+}
+#lgin, #explore{
+    color: #1c1d1f;
+}
+#lgin:hover, #lngbutton:hover{
+    background-color: rgb(248, 246, 242);
+}
+#snup{
+    color: #fff;
+    background-color: #1c1d1f;
+}
+
+#shopCrt{
+    cursor: pointer;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-self: center;
+}
+#lngbutton{
+     width: 3%;
+}
