@@ -7,6 +7,8 @@
     text-align: left;
     word-wrap: break-word;
     margin: 1%;
+    text-decoration: none;
+    color: black;
 }
 .cardImg{
     width: 100%;

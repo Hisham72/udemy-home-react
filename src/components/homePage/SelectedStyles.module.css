@@ -2,9 +2,8 @@
     border: 1px solid #d1d7dc;
     padding: 25px;
     text-align: left;
-    width: 70%;
+    width: 90%;
     position: relative;
-    left: 13.5%;
 }
 
 .selectedCourses > h3{
@@ -30,7 +29,6 @@
 .explore:hover{
     background-color: rgb(240, 236, 229);
 }
-
 .cards{
     display: flex;
     margin: 5px;

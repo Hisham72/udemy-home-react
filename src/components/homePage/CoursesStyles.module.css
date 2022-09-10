@@ -1,0 +1,40 @@
+#courses{
+    /* display: flex;*/
+     flex-direction: column;
+     width: 70%;
+     margin: auto;
+     text-align: left;
+ }
+ #tabs{
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     display: grid;
+     grid-auto-columns: max-content;
+     grid-auto-flow: column;
+     grid-gap: 1.6rem;
+     overflow: auto;
+     font-weight: bold;
+     color: grey;
+ }
+ 
+ 
+ 
+ #courses > h2 {
+     margin-bottom: 1px;
+ }
+ 
+ #courses > p{
+     margin-top: 10px;
+ }
+ 
+ 
+ #tabs > li{
+     display: inline;
+     cursor: pointer;
+ }
+ 
+ #tabs > li:hover {
+     color: black;
+ }
+ 

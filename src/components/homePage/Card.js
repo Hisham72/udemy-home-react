@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styles from './cardStyles.module.css'
 
 function Card({data}) {
   console.log(data);
   return (
-    <div className={styles.card}>
+    <Link className={styles.card} to='/dummy'>
         <img className={styles.cardImg} src={data.image} alt="python" />
         <h4 className={styles.cardHead}>{data.title}</h4>
         <span className={styles.author}>{data.instructor}</span>
@@ -21,7 +22,7 @@ function Card({data}) {
             <span className={styles.current}>E£{data.price}</span>
         </section>
         {data.bestSeller && <span className={styles.best}>Bestseller</span>}
-    </div>
+    </Link>
   )
 }
 

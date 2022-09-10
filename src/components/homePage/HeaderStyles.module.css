@@ -1,0 +1,19 @@
+.myHeader{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+#new{
+   width: 35%;
+   padding: 10px;
+   box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+   height: 20%;
+   font-size: 20px;
+   min-width: 300px;
+}
+
+#new > p{
+    font-size: 19px;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
