@@ -1,10 +1,9 @@
 import React from 'react'
 import styles from './SelectedStyles.module.css'
 import Card from './Card'
-import data from './CoursesCardData'
 
-function SelectedCourses() {
-  const cardList = data.map(piece => <Card key={piece.id} data={piece}/>)
+function SelectedCourses({myData}) {
+  const cardList = myData.map(piece => <Card key={piece.id} data={piece}/>)
   return (
     <section className={styles.selectedCourses}>
         <h3>Expand your Career opportunities with Python</h3>

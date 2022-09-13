@@ -1,7 +1,8 @@
 import React from 'react'
 import SelectedCourses from './SelectedCourses'
 import styles from './CoursesStyles.module.css'
-
+import Card from './Card'
+import data from './CoursesCardData'
 function Courses() {
   return (
     <section id={styles.courses}>
@@ -16,7 +17,7 @@ function Courses() {
         <li id = {styles.Aws}>AWS Certification</li>
         <li id = {styles.Drawing}>Drawing</li>
       </ul>
-      <SelectedCourses />
+      <SelectedCourses myData={data} />
     </section>
   )
 }
